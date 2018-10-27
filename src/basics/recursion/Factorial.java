@@ -22,10 +22,18 @@ public class Factorial {
      * @return fibbonacci number
      */
     public static int fib(int pos) {
-        return -1;
+        if(pos == 1 || pos == 0) {
+            return 1;
+        }
+        else if(pos>1) {
+            return fib(pos - 1) + fib(pos - 2);
+        }
+        return 1;
+
     }
 
     public static void main(String[] args) {
         System.out.println("factorial of 5 = " + factorial(5));
+        System.out.println("Fab ="+fib(0));
     }
 }
