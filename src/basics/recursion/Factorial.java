@@ -16,6 +16,15 @@ public class Factorial {
         return -1;
     }
 
+    /**
+     * Calculates Fibbonacci number at given position
+     * @param pos position for which number has to be calculated
+     * @return fibbonacci number
+     */
+    public static int fib(int pos) {
+        return -1;
+    }
+
     public static void main(String[] args) {
         System.out.println("factorial of 5 = " + factorial(5));
     }
