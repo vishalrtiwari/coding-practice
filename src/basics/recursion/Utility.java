@@ -1,7 +1,7 @@
-package Utility;
+package basics.recursion;
 
 
-public class utility {
+public class Utility {
     /**
      * Calculates factorial
      * @param number number for which factorial to be calculated as int
